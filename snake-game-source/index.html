@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>snake game</title>
+</head>
+<body>
+
+    <main>
+        <div id="container">
+
+            <div id="gamebox">
+                <div id="scorebox">
+                    <p id="score">score: 0</p>
+                    <a id="github" href="https://github.com/daVinci-namesake">my github!</a>
+                </div>
+
+                <!--quadro de jogo-->
+                <canvas id="play__board"></canvas>
+                <!--rodapé-->
+                <div class="footer">
+
+                    <div class="control__box">
+
+                        <div class="arrow__left">
+                            <img src="./assets/seta-left-right.svg" id="left">
+                        </div>
+                        <div id="micro__container">
+                            <div class="arrow__up">
+                                <img src="./assets/seta-up-down.svg" id="up">
+                            </div>
+                            <div class="arrow__down">
+                                <img src="./assets/seta-up-down.svg" id="down">
+                            </div>
+                        </div>
+                        <div class="arrow__right">
+                            <img src="./assets/seta-left-right.svg" id="right">
+                        </div>
+
+                    </div>
+
+                    <figure class="gif">
+                        <img src="./assets/kirby.gif" class="kirby__size">
+                        <img src="./assets/kirby.gif" class="kirby__size">
+                        <img src="./assets/kirby.gif" class="kirby__size">
+                    </figure> 
+
+                </div> 
+
+            </div>
+
+        </div>
+    </main>
+
+    <script src="./scripts/source.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
